@@ -8,4 +8,4 @@ Food Ordering App Features:
 6)Admin can update the food items available,view and confirm orders.
 7)Once order is confirmed, payment is done and msg for successfull payment completion.
 8)Students can choose pickup time, orders can be made preferably.
-9)NOtification to students when order status changes.
+9)Notification to students when order status changes.
