@@ -1,0 +1,11 @@
+Food Ordering App Features:
+
+1)Students and Admins have separate login.
+2)College students can register their roll number and login.
+3)Canteen names and location will be displayed.
+4)Students can place their orders: add,remove,update with quantity.
+5)Students can view the order id, price and status(Order confirmed,preparing,ready,pickedup).
+6)Admin can update the food items available,view and confirm orders.
+7)Once order is confirmed, payment is done and msg for successfull payment completion.
+8)Students can choose pickup time, orders can be made preferably.
+
