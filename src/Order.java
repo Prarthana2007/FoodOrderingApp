@@ -6,7 +6,7 @@ public class Order{
   private String status;
   private double totalAmount;
 
-   public Order(int orderId, int orderId,int quantity ,double totalAmount){
+  public Order(int orderId, int orderId,int quantity ,double totalAmount){
     this.orderId=orderId;
     this.itemId=itemId;
     this.quantity=quantity;
@@ -14,5 +14,11 @@ public class Order{
     this.status="Placed";
     this.totalAmount=totalAmount;
     }
+  public void placeOrder(){
+  }
+  public void cancelOrder(){
+  }
+  public void updateStatus(){
+  }
 }
   
