@@ -1,14 +1,16 @@
-package foodorderingapp;
+package com.spk;
+import java.time.LocalTime;
 
 public class Canteen {
     private int canteenId;
     private String canteenName;
     private String location;    
     private Menu menu;
-    private LocalDateTime openingTime;
-    private LocalDateTime closingTime;
+    private LocalTime openingTime;
+    private LocalTime closingTime;
 
-    public Canteen(int canteenId, String canteenName, String location, LocalDateTime openingTime, LocalDateTime closingTime) {
+    public Canteen(int canteenId, String canteenName, String location,
+               LocalTime openingTime, LocalTime closingTime) {
         this.canteenId = canteenId;
         this.canteenName = canteenName;
         this.location = location;
@@ -19,13 +21,9 @@ public class Canteen {
     public void displayMenu(){
 
     }
-    public getMenu(){
+    public Menu getMenu(){
         return menu;
     }
     public boolean isOpen(){
-        LocalTime currentTime=LocalTime.now();
-        return currentTime.isAfter(openingTime)&& currentTime.isBefore(closingTime);
+    
     }
-    }
-
-}
