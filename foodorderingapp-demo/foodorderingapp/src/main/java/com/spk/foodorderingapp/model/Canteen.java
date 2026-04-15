@@ -1,4 +1,5 @@
-package com.spk;
+package com.spk.foodorderingapp.model;
+
 import java.time.LocalTime;
 
 public class Canteen {
@@ -25,5 +26,8 @@ public class Canteen {
         return menu;
     }
     public boolean isOpen(){
-    
+
+        LocalTime now = LocalTime.now();
+        return now.isAfter(openingTime) && now.isBefore(closingTime);
     }
+}

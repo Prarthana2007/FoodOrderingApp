@@ -1,4 +1,4 @@
-package com.spk;
+package com.spk.foodorderingapp.model;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.spk.foodorderingapp;
+package com.spk.foodorderingapp.model;
 
 public class Payment {
 
